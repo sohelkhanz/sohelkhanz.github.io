@@ -23,7 +23,8 @@ body {
 header,footer {
   font-size: .9rem;
   text-align: center;
-  background:  #f76497;
+  background:  #0a0a0a;
+   color: # f76497;
   width: 100%;
 }
 
@@ -48,11 +49,11 @@ h1, h2 {
 
 h1 {
 	font-size: 2em;
-        color: black;
+        color: green;
 }
 
 h2 {
-	font-size: 1.8em;
+	font-size: 1.4em;
         margin-top: 2em;
            color: #778899;
 }
