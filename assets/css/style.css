@@ -24,7 +24,7 @@ header,footer {
   font-size: .9rem;
   text-align: center;
   background:  #0a0a0a;
-   color: # f76497;
+   color: #f76497;
   width: 100%;
 }
 
@@ -61,10 +61,10 @@ h2 {
 
 i.hash {
   font-size: 0.8em;
-  color: black;
+  color: gold;
 }
 a, a:visited {
-	color: black;
+	color: red;
 	text-decoration: none;
 }
 
