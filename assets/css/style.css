@@ -1,1 +1,83 @@
 
+html {
+  font-size: 20px;
+}
+
+body {
+  color: #000;
+  background: #fff;
+  font-size: 1.15rem;
+  line-height: 1.618;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  flex: 1;
+  margin: 0 auto;
+  max-width: 45rem;
+  padding: 0 .5rem;
+  overflow-x: hidden;
+	word-break: break-word;
+	overflow-wrap: break-word;
+}
+  
+header,footer {
+  font-size: .9rem;
+  text-align: center;
+  background: #778899;
+  width: 100%;
+}
+
+
+/* Make the textarea wider than other inputs */
+textarea {
+  width: 80%
+}
+
+/* Makes input fields wider on smaller screens */
+@media only screen and (max-width: 720px) {
+  textarea,
+  select,
+  input {
+    width: 100%;
+  }
+}
+h1, h2 {
+	clear: both;
+  font-weight: bold;
+}
+
+h1 {
+	font-size: 2em;
+        color: green;
+}
+
+h2 {
+	font-size: 1.8em;
+        margin-top: 2em;
+           color: #778899;
+}
+
+
+i.hash {
+  font-size: 0.8em;
+  color: blue;
+}
+
+blockquote {
+    margin-left: 2em;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    padding: .4rem .8rem;
+    border-left: .35rem solid green;
+    color: red;
+    font-style: italic;
+}
+pre {
+        overflow: auto; 
+	padding: 20px;
+	overflow: auto;
+	max-height: 300px;
+	font-size: 14px;
+	background: #000;
+	color: #fff;
+}
