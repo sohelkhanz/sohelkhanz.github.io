@@ -48,7 +48,7 @@ h1, h2 {
 
 h1 {
 	font-size: 2em;
-        color: green;
+        color: black;
 }
 
 h2 {
@@ -60,7 +60,7 @@ h2 {
 
 i.hash {
   font-size: 0.8em;
-  color: blue;
+  color: black;
 }
 
 blockquote {
@@ -69,7 +69,7 @@ blockquote {
     margin-top: 2rem;
     padding: .4rem .8rem;
     border-left: .35rem solid green;
-    color: red;
+    color: blue;
     font-style: italic;
 }
 pre {
