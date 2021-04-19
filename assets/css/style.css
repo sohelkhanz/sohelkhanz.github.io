@@ -23,6 +23,7 @@ body {
 header,footer {
   font-size: .9rem;
   text-align: center;
+   background: green;
    color: #f76497;
   width: 100%;
 }
