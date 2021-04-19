@@ -77,14 +77,7 @@ i.hash {
   font-size: 0.8em;
   color: gold;
 }
-a, a:visited {
-	color: red;
-	text-decoration: none;
-}
 
-a:hover, a:focus, a:active {
-	text-decoration: none;
-}
 blockquote {
     margin-left: 2em;
     margin-bottom: 2rem;
