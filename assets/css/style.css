@@ -19,8 +19,20 @@ body {
 	word-break: break-word;
 	overflow-wrap: break-word;
 }
+header {
+	background: orange;
+	border-bottom: 1px solid blue;
+  text-align: center;
+  padding: 2rem .5rem;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
   
-header,footer {
+footer {
   font-size: .9rem;
   text-align: center;
    background: green;
