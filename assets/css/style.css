@@ -2,36 +2,36 @@
 html {
   font-size: 20px;
 }
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
 
-body {
-  color: #000;
-  background: #fff;
-  font-size: 1.15rem;
-  line-height: 1.618;
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-  flex: 1;
-  margin: 0 auto;
-  max-width: 45rem;
-  padding: 0 .5rem;
-  overflow-x: hidden;
-	word-break: break-word;
-	overflow-wrap: break-word;
-}
-header {
-	background: orange;
-	border-bottom: 1px solid blue;
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
   text-align: center;
-  padding: 2rem .5rem;
-  width: 100vw;
-  position: fixed;
-  z-index: 1;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
+  padding: 14px 16px;
+  text-decoration: none;
 }
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
   
 footer {
   font-size: .9rem;
