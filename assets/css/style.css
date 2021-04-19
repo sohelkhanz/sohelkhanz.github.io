@@ -63,12 +63,20 @@ li {
     list-style: none;
 }
 header {
-    width: 100%;
-    height: 50px;
+
+header {
+  text-align: center;
+  padding: 2rem .5rem;
+  width: 100vw;
+  height: 50px;
+  position: fixed;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
     line-height: 50px;
     text-align: center;
     background-color: #f76497;
-    position: fixed;
     top: 0;
 }
 .brand {
