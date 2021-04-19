@@ -14,7 +14,7 @@
   <body>
       
     <header>
-        <figure class="brand"> s </figure>
+        <figure class="brand"> {{ page.header }} </figure>
         <nav class="menu">
             <input type="checkbox" id="menuToggle">
             <label for="menuToggle" class="menu-icon"><i class="fas fa-bars"></i></label>
@@ -29,7 +29,7 @@
 
 
     <main>
-                {{ page.header }}
+                
          {{ page.description }}
       {{ content }}
 
