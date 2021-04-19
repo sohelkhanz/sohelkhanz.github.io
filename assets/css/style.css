@@ -25,7 +25,8 @@ header {
   text-align: center;
   padding: 2rem .5rem;
   width: 100vw;
-  position: sticky;
+  position: fixed;
+  z-index: 1;
   left: 50%;
   right: 50%;
   margin-left: -50vw;
