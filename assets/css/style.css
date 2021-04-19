@@ -119,7 +119,7 @@ header {
 @media screen and (max-width: 768px) {
     .menu {
         width: 100%;
-        height: 50px;
+        height: auto;
     }
     .menu ul {
         display: block;
@@ -142,7 +142,7 @@ header {
         width: 100px;
         height: inherit;
         display: block;
-        position: relative;
+        position: absolute;
         top: 0;
         right: 0;
         line-height: 60px;
