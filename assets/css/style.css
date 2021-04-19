@@ -25,7 +25,7 @@ header {
   text-align: center;
   padding: 2rem .5rem;
   width: 100vw;
-  position: relative;
+  position: fixed;
   left: 50%;
   right: 50%;
   margin-left: -50vw;
