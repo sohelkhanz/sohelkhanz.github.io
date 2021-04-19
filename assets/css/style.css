@@ -22,7 +22,7 @@ header {
 .brand {
     width: auto;
     height: 100%;
-    float: right;
+    float: center;
     margin: 0 0 0 5%;
 }
 /*Início das configurações da Navigation*/
@@ -73,8 +73,6 @@ header {
         -ms-transition: max-height 0.3s;
         -o-transition: max-height 0.3s;
     	transition: max-height 0.3s;
-        /*Para fazer com que o menu saia da esquerda, você deve trocar max-height por max-width*/
-        /*Para fazer com que o menu saia da direita, você deve trocar max-height por max-width e setar float: right*/
     }
     .menu ul a {
         text-align: left;
@@ -94,8 +92,6 @@ header {
     }
     #menuToggle:checked ~ ul {
         max-height: 350px;
-        /*Para fazer com que o menu saia da esquerda ou direita, você deve trocar max-height por max-width*/
-    }
     .menu-icon i {
         font-size: 1.7em;
     }
