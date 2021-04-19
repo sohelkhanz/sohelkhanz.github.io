@@ -85,8 +85,8 @@ header {
     margin: 0 0 0 5%;
 }
 .menu {
-    width: auto;
-    height: auto;
+    width: 60%;
+    height: 100%;
     float: right;
 }
 .menu ul {
@@ -101,7 +101,7 @@ header {
     display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
 }
 .menu ul a {
-    width: auto;
+    width: 20%;
     height: inherit;
     color: #000;
     display: inline-block;
