@@ -23,8 +23,8 @@ header {
     margin: 0 0 0 5%;
 }
 .menu {
-    width: 60%;
-    height: 100%;
+    width: auto;
+    height: auto;
     float: left;
 }
 .menu ul {
