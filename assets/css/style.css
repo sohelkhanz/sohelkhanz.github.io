@@ -104,11 +104,6 @@ header {
         font-size: 1.7em;
     }
 }
-.main {
-  padding: 16px;
-  margin-top: 30px;
-  height: 1500px;
-}
 
 footer {
   font-size: .9rem;
@@ -116,20 +111,6 @@ footer {
   width: 100%;
 }
 
-
-/* Make the textarea wider than other inputs */
-textarea {
-  width: 80%
-}
-
-/* Makes input fields wider on smaller screens */
-@media only screen and (max-width: 720px) {
-  textarea,
-  select,
-  input {
-    width: 100%;
-  }
-}
 h1, h2 {
 	clear: both;
   font-weight: bold;
