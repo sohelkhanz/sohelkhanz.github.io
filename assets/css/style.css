@@ -36,7 +36,9 @@ h2 {
         margin-top: 2em;
            color: #778899;
 }
-
+textarea {
+  width: 80%
+}
 
 blockquote {
     margin-left: 2em;
@@ -160,4 +162,9 @@ header {
     .menu-icon i {
         font-size: 1.7em;
     }
+  textarea,
+  select,
+  input {
+    width: 100%;
+  }
 }
