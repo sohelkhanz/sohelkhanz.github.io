@@ -102,9 +102,22 @@ header {
 }
 
 .main {
-  padding: 16px;
-  margin-top: 100px;
-  height: 1500px; 
+      margin-top: 100px;
+      color: #000;
+      background: #fff;
+      font-size: 1.15rem;
+      line-height: 1.618;
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+      flex: 1;
+      margin: 0 auto;
+      max-width: 45rem;
+      padding: 0 .5rem;
+      overflow-x: hidden;
+	word-break: break-word;
+	overflow-wrap: break-word;
+
 }
 footer {
   font-size: .9rem;
