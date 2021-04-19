@@ -10,6 +10,7 @@ li {
 header {
     width: 100%;
     height: 50px;
+    max-height: 50px;
     line-height: 50px;
     text-align: center;
     background-color: #f76497;
@@ -31,7 +32,7 @@ header {
     width: 100%;
     height: inherit;
     margin: 0;
-    padding: 0;
+    padding: 14px 16px;
     display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
     display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
     display: -ms-flexbox;      /* TWEENER - IE 10 */
@@ -93,7 +94,7 @@ header {
 }
 
 .main {
-      margin-top: 200px;
+      margin-top: 500px;
       color: #000;
       background: #fff;
       font-size: 1.15rem;
@@ -102,7 +103,6 @@ header {
       min-height: 100vh;
       flex-direction: column;
       flex: 1;
-      margin: 0 auto;
       max-width: 45rem;
       padding: 0 .5rem;
       overflow-x: hidden;
