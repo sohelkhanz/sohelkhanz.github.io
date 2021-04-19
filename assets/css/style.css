@@ -39,7 +39,7 @@ header {
     display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
 }
 .menu ul a {
-    width: 20%;
+    width: auto;
     height: inherit;
     color: #ff00ff;
     display: inline-block;
