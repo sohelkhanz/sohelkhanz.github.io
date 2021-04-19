@@ -22,14 +22,14 @@ header {
 .brand {
     width: auto;
     height: 100%;
-    float: left;
+    float: right;
     margin: 0 0 0 5%;
 }
 /*Início das configurações da Navigation*/
 .menu {
     width: 60%;
     height: 100%;
-    float: right;
+    float: left;
 }
 .menu ul {
     width: 100%;
