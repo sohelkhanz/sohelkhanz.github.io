@@ -4,6 +4,7 @@ header: মার্কডাউন ওয়েবসাইট
 description: খুবই সাধারণ আর সরল ভাবে এটা ডিজাইন করা।কোন রকম জাভাস্ক্রিপ্ট আর থিম ছাড়াই।
 permalink: contents/markdown
 layout: default
+comments: true
 ---
 এটা বানাতে আমি শুধু _congif.yml, _layout আর  css এই তিনটি directory ব্যবহার করছি। খুবই সাধারন তবে অনেক হাই পারফরম্যান্সড ওয়েবসাইট।
 
