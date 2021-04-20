@@ -1,3 +1,4 @@
 url: "https://60z.github.io"
-disqus: sohel
+disqus: 
+  shortname: sohel
 
