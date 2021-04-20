@@ -104,6 +104,7 @@ header {
     display: -webkit-flex;     /* NEW - Chrome */
     display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
 }
+ul li { float: right; }
 li a {
     width: 20%;
     height: inherit;
