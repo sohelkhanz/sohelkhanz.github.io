@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="bn">
+  <head>
+    <meta charset="utf-8">
+    <meta name="theme-color" content="#f76497">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/images/favicon.png" />
+    <title>{{ page.title }}</title>
+    <meta name="description" content="{{ page.description }}" />
+    <link rel="stylesheet" href="/assets/css/all.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+
+  </head>
+  <body>
+      
+    <header>
+        <figure class="brand typewriter typing-erase"> {{ page.header }} </figure>
+        <nav class="menu">
+            <input type="checkbox" id="menuToggle">
+            <label for="menuToggle" class="menu-icon"><i class="fas fa-bars"></i></label>
+            <ul>
+                
+                   <li><a  href="/"><i class="fas fa-home"></i> হোম</a> </li>
+                   <li><a  href="/#"><i class="fas fa-code"></i> কোডিং</a> </li>
+                   <li><a  href="/#"><i class="fas fa-briefcase"></i> কাজ</a> </li>
+                   <li> <a  href="/contents/markdown"> <i class="fas fa-blog"></i> ব্লগ</a> </li>
+            
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+                
+         {{ page.description }}
+      {{ content }}
+    
+    </main>
+
+    <footer>
+
+  <br> <br>
+      <p>সোহেল খান©২০২১</p>
+    </footer>
+
+  </body>
+</html>
