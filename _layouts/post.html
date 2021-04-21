@@ -42,7 +42,7 @@
   <div id="disqus_empty"></div>
 </div>
 <script>
-function load_disqus( sohel ) {
+function load_disqus( disqus_shortname ) {
   // Prepare the trigger and target
   var is_disqus_empty = document.getElementById('disqus_empty'),
       disqus_target   = document.getElementById('disqus_thread'),
@@ -53,7 +53,7 @@ function load_disqus( sohel ) {
   if( disqus_target && is_disqus_empty ) {
     disqus_embed.type = 'text/javascript';
     disqus_embed.async = true;
-    disqus_embed.src = '//' + sohel + '.disqus.com/embed.js';
+    disqus_embed.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     disqus_hook.appendChild(disqus_embed);
     is_disqus_empty.remove();
   }
