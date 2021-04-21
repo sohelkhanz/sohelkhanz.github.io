@@ -154,7 +154,6 @@ pre {
 
 }
 
-/*Configurações Globais*/
 
 html, body {
 
@@ -180,7 +179,6 @@ li {
 
 }
 
-/*Início das configurações da header*/
 
 header {
 
@@ -212,7 +210,6 @@ header {
 
 }
 
-/*Início das configurações da Navigation*/
 
 .menu {
 
@@ -308,10 +305,6 @@ li a:hover {
 
     	transition: max-height 0.3s;
 
-        /*Para fazer com que o menu saia da esquerda, você deve trocar max-height por max-width*/
-
-        /*Para fazer com que o menu saia da direita, você deve trocar max-height por max-width e setar float: right*/
-
     }
 
     li a {
@@ -349,8 +342,6 @@ li a:hover {
     #menuToggle:checked ~ ul {
 
         max-height: 350px;
-
-        /*Para fazer com que o menu saia da esquerda ou direita, você deve trocar max-height por max-width*/
 
     }
 
