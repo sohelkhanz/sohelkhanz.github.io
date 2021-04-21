@@ -1,11 +1,12 @@
 ---
 title: মার্কডাউন ওয়েবসাইট
 header: মার্কডাউন ওয়েবসাইট 
-description: খুবই সাধারণ আর সরল ভাবে এটা ডিজাইন করা।কোন রকম জাভাস্ক্রিপ্ট আর থিম ছাড়াই। চেক করতে পারেন https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2F60z.github.io%2F 
-জিটিম্যাট্রিক্সে চেক করতে পারেন ওয়েবসাইটের সাইজ ১০ কেবির নিচে https://gtmetrix.com/reports/60z.github.io/nWfL5uED/
+description: খুবই সাধারণ আর সরল ভাবে এটা ডিজাইন করা।কোন রকম জাভাস্ক্রিপ্ট আর থিম ছাড়াই। 
 permalink: contents/markdown
 layout: post
 ---
+চেক করতে পারেন https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2F60z.github.io%2F 
+জিটিম্যাট্রিক্সে চেক করতে পারেন ওয়েবসাইটের সাইজ ১০ কেবির নিচে https://gtmetrix.com/reports/60z.github.io/nWfL5uED/
 
 # প্রথম ধাপ (কনফিগারেশন)
 শুরুতে একটি `_config.yml` ফাইল বানাইছি। এখানে তেমন কিছুই করি নাই শুধু এক লাইনে আমার ওয়েবসাইটের এড্রেসটি লিখছি। 
