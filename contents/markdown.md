@@ -54,34 +54,9 @@ url: "https://....."
  ```
 ## বডি হেডার
 ফিক্সড মেনুর জন্য হেডারে এই কোডটি এড করছি। সাথে টাইপরাইডার ইফেক্ট এড করা।
- ```
- <header>
-        <figure class="brand typewriter typing-erase">সোহেল খান</figure>
-        <nav class="menu">
-            <input type="checkbox" id="menuToggle">
-            <label for="menuToggle" class="menu-icon"><i class="fas fa-bars"></i></label>
-            <ul>
-                
-                   <li><a  href="/"><i class="fas fa-home"></i> হোম</a> </li>
-                   <li><a  href="/#"><i class="fas fa-code"></i> কোডিং</a> </li>
-                   <li><a  href="/#"><i class="fas fa-briefcase"></i> কাজ</a> </li>
-                   <li> <a  href="/contents/markdown"> <i class="fas fa-blog"></i> ব্লগ</a> </li>
-            
-            </ul>
-        </nav>
-    </header>
-```
+
 মেইনে শুধু content এড করছি। সাথে আমার পারসোনাল ফন্টাসামের আইন লিংক ইউজ করছি।
-```
-<p style="text-align:center;">  <a href="https://facebook.com/nahklehos" aria-label="Facebook" class="fab fa-facebook fa-2x"></a>
-       <a href="https://twitter.com/nahklehos/" aria-label="Twitter" class="fab fa-twitter fa-2x"></a>
-      <a href="https://linkedin.com/in/nahklehos" aria-label="Linkedin" class="fab fa-linkedin fa-2x"></a>
-       <a href="https://github.com/60z" aria-label="Github" class="fab fa-github fa-2x"></a>
-      <a href="https://gitlab.com/sohel.khan" aria-label="Gitlab" class="fab fa-gitlab fa-2x"></a>
-      <a href="https://bitbucket.org/sohel_khan" aria-label="Bitbucket" class="fab fa-bitbucket fa-2x"></a>
-      <a href="https://stackoverflow.com/sohel.khan" aria-label="Stackoverflow" class="fab fa-stack-overflow fa-2x"></a>
-      </p>
-```
+
 ## ফুটার
 
 ```    
@@ -172,91 +147,8 @@ header {
 }
 ```
 ## ফন্ট অসাম এড
-ফট অসার নিজের মত করে কাস্টমাইজ করছি। এমনকি ওয়েবফন্টগুলিও এডিট করে একদম ছোট করে ফেলছি।
-```
-.fa,
-.fas,
-.far,
-.fal,
-.fad,
-.fab {
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  line-height: 1; }
-  
-.fa-2x {
-  font-size: 2em; }
+ নিজের মত করে কাস্টমাইজ করছি। এমনকি ওয়েবফন্টগুলিও এডিট করে একদম ছোট করে ফেলছি।
 
-.fa-bars:before {
-  content: "\f0c9"; }
-
-.fa-blog:before {
-  content: "\f781"; }
-
-.fa-briefcase:before {
-  content: "\f0b1"; }
-
-.fa-bitbucket:before {
-  content: "\f171"; }
-
-.fa-code:before {
-  content: "\f121"; }
-
-.fa-home:before {
-  content: "\f015"; }
-
-.fa-facebook:before {
-  content: "\f09a"; }
-
-.fa-instagram:before {
-  content: "\f16d"; }
-
-.fa-github:before {
-  content: "\f09b"; }
-
-.fa-gitlab:before {
-  content: "\f296"; }
-
-.fa-stack-overflow:before {
-  content: "\f16c"; }
-
-.fa-twitter:before {
-  content: "\f099"; }
-
-.fa-linkedin:before {
-  content: "\f08c"; }
-
-
-@font-face {
-  font-family: 'Font Awesome 5 Free';
-  font-style: normal;
-  font-weight: 900;
-  font-display: block;
-   src: url("../webfonts/fa-solid-900.eot");
-  src: url("../webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-solid-900.woff2") format("woff2"), url("../webfonts/fa-solid-900.woff") format("woff"), url("../webfonts/fa-solid-900.ttf") format("truetype"), url("../webfonts/fa-solid-900.svg#fontawesome") format("svg"); }
-
-.fa,
-.fas {
-  font-family: 'Font Awesome 5 Free';
-  font-weight: 900; }
-
- 
-@font-face {
-  font-family: 'Font Awesome 5 Brands';
-  font-style: normal;
-  font-weight: 400;
-  font-display: block;
-  src: url("../webfonts/fa-brands-400.eot");
-  src: url("../webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-brands-400.woff2") format("woff2"), url("../webfonts/fa-brands-400.woff") format("woff"), url("../webfonts/fa-brands-400.ttf") format("truetype"), url("../webfonts/fa-brands-400.svg#fontawesome") format("svg"); }
-
-.fab {
-  font-family: 'Font Awesome 5 Brands';
-  font-weight: 400; }
-```
 ## টেক্সএরিয়া কাস্টমাইজ
 ```
 
@@ -266,94 +158,9 @@ textarea {
 ```
 ## মোবাইল স্ক্রিন কাস্টমাইজ
 মোবাইল স্ক্রিনে সাইড মেনুর জন্য মিডিয়া অন করছি
-```
-@media screen and (max-width: 768px) {
 
-    .menu {
 
-        width: 100%;
 
-        height: auto;
-
-    }
-
-    .menu ul {
-
-        display: block;
-
-        max-height: 0;
-
-    	overflow: hidden;
-
-    	-webkit-transition: max-height 0.3s;
-
-    	-moz-transition: max-height 0.3s;
-
-        -ms-transition: max-height 0.3s;
-
-        -o-transition: max-height 0.3s;
-
-    	transition: max-height 0.3s;
-
-    }
-
-    li a {
-
-        text-align: left;
-
-        width: 100%;
-
-        height: auto;
-
-        background-color: #f773a1;
-
-        padding: 10px 0px 10px 5%;
-
-    }
-
-    .menu-icon {
-
-        width: 100px;
-
-        height: inherit;
-
-        display: block;
-
-        position: absolute;
-
-        top: 0;
-
-        right: 0;
-
-        line-height: 60px;
-
-    }
-
-    #menuToggle:checked ~ ul {
-
-        max-height: 350px;
-
-    }
-
-    .menu-icon i {
-
-        font-size: 1.7em;
-
-    }
-
-  textarea,
-
-  select,
-
-  input {
-
-    width: 100%;
-
-  }
-
-}
-
-```
 ## হেডিং কাস্টমাইজ
 ```
 h1, h2 {
