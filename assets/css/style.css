@@ -31,7 +31,7 @@ main {
 
 }
 
-main a { font-color: blue; }
+a:link { color: blue; }
 footer {
 
   font-size: .9rem;
