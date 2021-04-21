@@ -11,15 +11,11 @@ layout: post
 
 
 
- <a href="https://facebook.com/nahklehos" class="fab fa-facebook">ফেসবুক</a> <br> <br>
-<a href="https://twitter.com/nahklehos/" class="fab fa-twitter">টুইটার</a> <br> <br>
-<a href="https://linkedin.com/in/nahklehos" class="fab fa-linkedin">Linkedইন</a> <br> <br>
-<a href="https://github.com/nahkhelos" class="fab fa-github">গিটহাব</a> <br> <br>
-<a href="https://gitlab.com/sohel.khan" class="fab fa-gitlab">গিটল্যাব</a> <br> <br>
-<a href="https://bitbucket.org/sohel_khan" class="fab fa-bitbucket">বিটবাকেট</a> <br> <br>
-<a href="https://stackoverflow.com/sohel.khan" class="fab fa-stack-overflow">স্টকওভারফ্লো</a>
-<a  href="/" aria-label="Home" ><i class="fas fa-home"></i></a>
-                   <li><a  href="/#"><i class="fas fa-code"></i></a> </li>
-                   <li><a  href="/contents/contact"><i class="fas fa-briefcase"></i> </a> </li>
-                   <li> <a  href="/contents/markdown"> <i class="fas fa-blog"></i> </a> </li>
+       <a href="https://facebook.com/nahklehos" aria-label="Facebook" class="fab fa-facebook"></a>
+       <a href="https://twitter.com/nahklehos/" aria-label="Twitter" class="fab fa-twitter"></a>
+       <a href="https://linkedin.com/in/nahklehos" aria-label="Linkedin" class="fab fa-linkedin"></a>
+       <a href="https://github.com/60z" aria-label="Github" class="fab fa-github"></a>
+       <a href="https://gitlab.com/sohel.khan" aria-label="Gitlab" class="fab fa-gitlab"></a>
+       <a href="https://bitbucket.org/sohel_khan" aria-label="Bitbucket" class="fab fa-bitbucket"></a>
+       <a href="https://stackoverflow.com/sohel.khan" aria-label="Stackoverflow" class="fab fa-stack-overflow"></a>
             
