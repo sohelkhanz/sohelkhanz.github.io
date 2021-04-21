@@ -1,6 +1,4 @@
-#disqus_thread {
-    min-height: 100px;
-}
+
 main {
 
   margin: 80px auto 0 auto;
@@ -358,7 +356,7 @@ li a:hover {
 
     .menu-icon i {
 
-        font-size: 1.7em;
+        font-size: 2em;
 
     }
 
