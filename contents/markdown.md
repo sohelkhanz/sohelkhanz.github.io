@@ -418,45 +418,8 @@ permalink:
 layout:
 ---
 ```
-# কমেন্টস অন
-```
-<div class="disq">
-<div id="disqus_thread">
-  <div id="disqus_empty"></div>
-</div>
-<script>
-function load_disqus( disqus_shortname ) {
-  // Prepare the trigger and target
-  var is_disqus_empty = document.getElementById('disqus_empty'),
-      disqus_target   = document.getElementById('disqus_thread'),
-      disqus_embed    = document.createElement('script'),
-      disqus_hook     = (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]);
+## কমেন্টস অন
 
-  // Load script asynchronously only when the trigger and target exist
-  if( disqus_target && is_disqus_empty ) {
-    disqus_embed.type = 'text/javascript';
-    disqus_embed.async = true;
-    disqus_embed.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-    disqus_hook.appendChild(disqus_embed);
-    is_disqus_empty.remove();
-  }
-}
 
-/*
- * Load disqus only when the document is scrolled till the top of the
- * section where comments are supposed to appear.
- */
-window.addEventListener('scroll', function(e) {
-  var currentScroll = document.scrollingElement.scrollTop;
-  var disqus_target = document.getElementById('disqus_thread');
-
-  if( disqus_target && (currentScroll > disqus_target.getBoundingClientRect().top - 150) ) {
-    load_disqus('60z');
-    console.log('Disqus loaded.');
-  }
-}, false);
-</script> 
-</div>
-```
 
 কমেন্ট এ ল্যাজি ইফেক্ট জাভা স্ক্রিপ্ট ইউজ করছি যেহেতু আমি চাই না পেজে কোনো জেএস থাকে। স্ক্রল করে কিছুক্ষন অপেক্ষা করলে কমেন্টস দেখতে পারবেন। লেজি করার কারনে পেজ স্পিডে কোন সমস্যা হবে না। কোনো মতামত থাকলে  কমেন্টস করতে পারেন।
