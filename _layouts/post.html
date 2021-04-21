@@ -42,7 +42,7 @@
   <div id="disqus_empty"></div>
 </div>
 <script>
-function load_disqus( 'sohel' ) {
+function load_disqus( sohel ) {
   // Prepare the trigger and target
   var is_disqus_empty = document.getElementById('disqus_empty'),
       disqus_target   = document.getElementById('disqus_thread'),
@@ -68,7 +68,7 @@ window.addEventListener('scroll', function(e) {
   var disqus_target = document.getElementById('disqus_thread');
 
   if( disqus_target && (currentScroll > disqus_target.getBoundingClientRect().top - 150) ) {
-    load_disqus('w3bits');
+    load_disqus('sohel');
     console.log('Disqus loaded.');
   }
 }, false);
