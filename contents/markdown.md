@@ -7,7 +7,7 @@ layout: post
 ---
 Performance চেক করতে পারেন [লাইটহাইজে](https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2F60z.github.io%2F)
 জিটিম্যাট্রিক্সে চেক করতে পারেন ওয়েবসাইটের সাইজ ১০ কেবির নিচে  [জিটিম্যাট্রিক্স](https://gtmetrix.com/reports/60z.github.io/nWfL5uED/)
-
+গিটহাবে আমার ওপেন সোর্স রিপুটা দেখতে পারেন [60z](https://github.com/60z/60z.github.io/)
 # প্রথম ধাপ (কনফিগারেশন)
 শুরুতে একটি `_config.yml` ফাইল বানাইছি। এখানে তেমন কিছুই করি নাই শুধু এক লাইনে আমার ওয়েবসাইটের এড্রেসটি লিখছি। 
 ```
@@ -160,12 +160,12 @@ h1, h2 {
 }
 
 h1 {
-	font-size: 2em;
-        color: green;
+	font-size: 1.4em;
+        color: #778899;
 }
 
 h2 {
-	font-size: 1.6em;
+	font-size: 1.3em;
            color: #778899;
 }
 
