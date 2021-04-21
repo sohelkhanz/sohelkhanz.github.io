@@ -18,7 +18,7 @@ layout: post
 <a href="https://gitlab.com/sohel.khan" class="fab fa-gitlab">গিটল্যাব</a> <br> <br>
 <a href="https://bitbucket.org/sohel_khan" class="fab fa-bitbucket">বিটবাকেট</a> <br> <br>
 <a href="https://stackoverflow.com/sohel.khan" class="fab fa-stack-overflow">স্টকওভারফ্লো</a>
-<a  href="/"><i class="fas fa-home"></i></a>
+<a  href="/" aria-label="Home" ><i class="fas fa-home"></i></a>
                    <li><a  href="/#"><i class="fas fa-code"></i></a> </li>
                    <li><a  href="/contents/contact"><i class="fas fa-briefcase"></i> </a> </li>
                    <li> <a  href="/contents/markdown"> <i class="fas fa-blog"></i> </a> </li>
