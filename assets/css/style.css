@@ -31,7 +31,7 @@ main {
 
 }
 
-
+main a { font-color: blue; }
 footer {
 
   font-size: .9rem;
