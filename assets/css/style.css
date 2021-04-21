@@ -21,7 +21,7 @@ main {
 
   flex: 1;
 
-  max-width: 45rem;
+  max-width: 50rem;
 
   padding: 0 .5rem;
 
@@ -42,6 +42,17 @@ footer {
 
   width: 100%;
 
+}
+.disq {  margin: auto;
+       max-width: 50rem;
+
+       padding: 0 .5rem;
+   
+       overflow-x: hidden;
+
+	word-break: break-word;
+
+	overflow-wrap: break-word;
 }
 
 .typewriter {
