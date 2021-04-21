@@ -1,1 +1,1 @@
-[page_speed](/assets/images/page_speed_test.jpg)
+![page_speed](/assets/images/page_speed_test.jpg)
