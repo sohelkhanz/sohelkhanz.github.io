@@ -193,10 +193,8 @@ function load_disqus( disqus_shortname ) {
   }
 }
 ```
-/*
- * Load disqus only when the document is scrolled till the top of the
- * section where comments are supposed to appear.
- */
+Load disqus only when the document is scrolled till the top of the
+ section where comments are supposed to appear.
 ```
 window.addEventListener('scroll', function(e) {
   var currentScroll = document.scrollingElement.scrollTop;
