@@ -102,39 +102,7 @@ header {
 }
 
 ```
-## টাইপরাইটার ইফেক্ট
-```
-.typewriter {
-  color: #000;
-  font-size: 1.5em;
-  font-weight: 500;
-  width: 0;
-  max-width: max-content;
-  overflow: hidden; 
-  border-right: .6em solid transparent; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0; /* Gives that scrolling effect as the typing happens */
-}
 
-.typing-erase {
-  animation: 
-    4s typing-erase 4s steps(20, end) infinite,
-    blink-caret .5s step-end infinite;
-}
-
-/* The type and erase effect */
-@keyframes typing-erase {
-  0% { width: 0 }
-  50% { width: 100% }
-  60%, 100% { width: 0 }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: transparent }
-}
-```
 ## ফন্ট অসাম এড
  নিজের মত করে কাস্টমাইজ করছি। এমনকি ওয়েবফন্টগুলিও এডিট করে একদম ছোট করে ফেলছি।
 
