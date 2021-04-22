@@ -1,2 +1,7 @@
 url: "https://60z.github.io"
+gems:
+  - jekyll-mentions
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
 
