@@ -166,16 +166,8 @@ h2 {
 	font-size: 1.3em;
            color: #778899;
 }
-
-
 ```
 
-```
-i.hash {
-  font-size: 0.8em;
-  color: blue;
-}
-```
 ## ব্লককোট কাস্টমাইজ
 ```
 blockquote {
@@ -196,7 +188,6 @@ pre {
 	padding: 20px;
 	overflow: auto;
 	max-height: 300px;
-	font-size: 14px;
 	background: #000;
 	color: #fff;
 }
@@ -216,5 +207,6 @@ layout:
 ## কমেন্টস অন
 কমেন্ট এ ল্যাজি ইফেক্ট জাভা স্ক্রিপ্ট ইউজ করছি যেহেতু আমি চাই না পেজে কোনো জিএস থাকে। স্ক্রল করে কিছুক্ষন অপেক্ষা করলে কমেন্টস দেখতে পারবেন। লেজি করার কারনে পেজ স্পিডে কোন সমস্যা হবে না।Performance চেক করতে পারেন [লাইটহাউজে](https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2F60z.github.io%2F)।
 জিটিম্যাট্রিক্সে চেক করতে পারেন ওয়েবসাইটের সাইজ ১০ কেবির নিচে  [জিটিম্যাট্রিক্স](https://gtmetrix.com/reports/60z.github.io/nWfL5uED/)।
+৫১২কেবি ক্লাবে এই ওয়েবসাইটটি গ্রীন টিমে আছে [512kb.club](https://512kb.club/) ।
 গিটহাবে আমার ওপেন সোর্স রিপুটা দেখতে পারেন [60z](https://github.com/60z/60z.github.io/)।
 এই পেজের পারফরম্যান্স ১০০% ডিসকাস অন করার পরেও। চেক করে দেখতে পারেন [এখানে](https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2F60z.github.io%2Fcontents%2Fmarkdown) ।
