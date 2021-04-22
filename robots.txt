@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://60z.github.io/sitemapx.xml
