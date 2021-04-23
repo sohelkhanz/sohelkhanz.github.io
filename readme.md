@@ -1,4 +1,5 @@
-
+Only 14 kb size website. See green team [512kb.club](https://512kb.club/)
+![page_speed](/assets/images/512kb.jpg)
 [click here](https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2F60z.github.io%2F) to see how well my homepage performs.
 ![page_speed](/assets/images/pagespeed1.JPG)
 
