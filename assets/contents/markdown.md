@@ -2,7 +2,7 @@
 title: মার্কডাউন ওয়েবসাইট
 header: মার্কডাউন ওয়েবসাইট 
 description: খুবই সাধারণ আর সরল ভাবে এটা ডিজাইন করা।কোন রকম জাভাস্ক্রিপ্ট আর থিম ছাড়াই। যাষ্ট _config.yml ও _layouts ব্যবহার করেই।
-permalink: contents/markdown
+permalink: /markdown
 layout: post
 ---
 সবগুলোর বিবরন দিতে গেলে অনেক বড় হয়ে যাবে বিধায় সংক্ষেপে লিখেছি।
