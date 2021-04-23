@@ -165,48 +165,8 @@ layout:
 ---
 ```
 ## কমেন্টস অন (লেজি লোড)
-কমেন্ট এ ল্যাজি ইফেক্ট জাভা স্ক্রিপ্ট ইউজ করছি যেহেতু আমি চাই না পেজে কোনো জিএস থাকে।
-```
-<div id="disqus_thread">
-  <div id="disqus_empty"></div>
-</div>
-```
-এরপর টার্গেট আর ট্রিগার প্রস্তুত করছি।
-```
-<script>
-function load_disqus( disqus_shortname ) {
-  
-  var is_disqus_empty = document.getElementById('disqus_empty'),
-      disqus_target   = document.getElementById('disqus_thread'),
-      disqus_embed    = document.createElement('script'),
-      disqus_hook     = (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]);
-```
-
-স্ক্রিপটিকে অসমকালীন করার জন্য আর এটা তখনই কাজ করবে যখন ট্রিগার আর টার্গেট চালু হবে।
-```  
-  if( disqus_target && is_disqus_empty ) {
-    disqus_embed.type = 'text/javascript';
-    disqus_embed.async = true;
-    disqus_embed.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-    disqus_hook.appendChild(disqus_embed);
-    is_disqus_empty.remove();
-  }
-}
-```
-এবার স্ক্রল করলে ডিসকাস যাতে লোড হয় সেই স্ক্রিপটি লিখছি।
-```
-window.addEventListener('scroll', function(e) {
-  var currentScroll = document.scrollingElement.scrollTop;
-  var disqus_target = document.getElementById('disqus_thread');
-
-  if( disqus_target && (currentScroll > disqus_target.getBoundingClientRect().top - 150) ) {
-    load_disqus('60z');
-    console.log('Disqus loaded.');
-  }
-}, false);
-</script> 
-```
-
+কমেন্ট এ ল্যাজি ইফেক্ট জাভা স্ক্রিপ্ট ইউজ করছি যেহেতু আমি চাই না পেজে কোনো জিএস থাকে। 
+[lazyjs](https://60z.github.io/lazyjs)
  স্ক্রল করে কিছুক্ষন অপেক্ষা করলে কমেন্টস দেখতে পারবেন। লেজি করার কারনে পেজ স্পিডে কোন সমস্যা হবে না।Performance চেক করতে পারেন [লাইটহাউজে](https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2F60z.github.io%2F)। [gtmetrix](https://gtmetrix.com/reports/60z.github.io/aQzXZHAY/)
 জিটিম্যাট্রিক্সে চেক করতে পারেন ওয়েবসাইটের সাইজ ১০ কেবির নিচে  [জিটিম্যাট্রিক্স](https://gtmetrix.com/har.html?inputUrl=/reports/60z.github.io/aQzXZHAY/net.harp&expand=true&validate=false)।
 ৫১২কেবি ক্লাবে এই ওয়েবসাইটটি গ্রীন টিমে আছে [512kb.club](https://512kb.club/) ।
