@@ -1,18 +1,15 @@
 ---
-title: সোহেল খান
-header: সোহেল খান
-description: সফ্টওয়ার ডেভেলপার, ফ্রিল্যান্সার। জন্ম ১৯৯২ সালে ৭ই ডিসেম্বর, বাংলাদেশের ঢাকা বিভাগের ফরিদপুর জেলার মধুখালী উপজেলায়।
+title: Sohel Khan
+header: Sohel Khan
+description: Google Ads Experts
 permalink: /
 layout: default
 ---
 
-- # শিক্ষা
-- স্কুল: মধুখালী মডেল প্রাথমিক  বিদ্যালয়
-- হাই স্কুল: মধুখালী পাইলট উচ্চ বিদ্যালয়
-- কলেজ: ঢাকা কলেজ
-- বিশ্ববিদ্যালয়: রাজশাহী বিশ্ববিদ্যালয়
-# আগ্রহ
-কম্পিউটার সাইন্স, কৃত্রিম বুদ্ধিমত্তা, কোডিং,সাইবার নিরাপত্তা
+- # Education
+- Bangladesh Open University, CSE
+# Interest
+Competetive programming
 # কোডিং দক্ষতা
 - পাইথন
 - জাভা
