@@ -2,7 +2,7 @@
 title: Easy way to learn google ads
 header: Google ads
 description: Google ads
-permalink:/googleads
+permalink: /googleads
 layout: post
 ---
 
