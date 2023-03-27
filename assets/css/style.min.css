@@ -53,11 +53,7 @@ blockquote {
 pre {
     font-size: .9rem;
     overflow: auto; 
-	padding: 20px;
-	overflow: auto;
-	max-height: 300px;
-	background: #000;
-	color: #fff;
+    padding: 20px;
 }
 
 body, html {
