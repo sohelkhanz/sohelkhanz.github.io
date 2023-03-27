@@ -1,3 +1,6 @@
 url: "https://sohelkhan.rbind.io"
 gems:
   - jekyll-sitemap
+markdown: kramdown
+highlighter: rouge
+    input: GFM
