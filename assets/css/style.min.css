@@ -1,6 +1,9 @@
+body {
+    font-family: Josefin Sans;
+}
 main {
     margin: 80px auto 0 auto;
-     font-family: Josefin Sans;
+     
      color: #000;
     background: #fff;
     font-size: 1.3rem;
